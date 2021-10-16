@@ -1,0 +1,77 @@
+html {
+ font-family: monospace;
+ font-size: 1.1rem;
+ background: #0d1117;
+ color: rgb(161, 178, 231);
+}
+
+h1 {
+ font-size: 8vw;
+}
+
+.anniversariesUntilNow {
+ text-decoration: greenyellow underline;
+}
+
+.timeUntilNewAnniversary div {
+ margin: 5px;
+}
+
+.timeUntilNewAnniversary {
+ /* display: flex; */
+ margin-bottom: 40px;
+ /* border: 1px cyan solid; */
+}
+
+.timeUntilNewAnniversary div:first-child {
+ margin-left: 1px;
+ /* border: 1px greenyellow solid; */
+ text-decoration: greenyellow underline;
+ margin-bottom: 10px;
+}
+
+.timeUntilNewAnniversary div:not(:first-child) {
+ margin-left: 20px;
+ /* border: 1px greenyellow solid; */
+ text-decoration: hotpink underline;
+}
+
+.dayAnniversary {
+ /* border: 2px red solid; */
+ margin-bottom: 20px;
+}
+
+.dayAnniversary div:first-child {
+ /* border: 2px white solid; */
+ /* margin: 20px; */
+ text-decoration: greenyellow underline;
+ margin-bottom: 10px;
+ /* border: 1px red solid; */
+}
+
+.dayAnniversary div:not(:first-child) {
+ /* border: 2px white solid; */
+ margin-left: 20px;
+ margin-bottom: 10px;
+ text-decoration: hotpink underline;
+ /* border: 1px red solid; */
+}
+
+.allTheAnniversaries {
+ text-align: center;
+ background-color: lightblue;
+ margin-top: 20px;
+ color: rgb(18, 12, 12);
+ display: none;
+}
+
+.allTheAnniversaries :first-child {
+ text-decoration: black underline 1px;
+ padding-top: 10px;
+ font-size: 8vw;
+}
+
+.allTheAnniversaries :not(:first-child) {
+ margin: 3vw;
+ font-size: 7vw;
+}
